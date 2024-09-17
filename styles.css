@@ -1,0 +1,53 @@
+/* Global stylings */
+
+* {
+    box-sizing: border-box;
+  }
+
+  /* Main stylings */
+   body {
+    background-color: powderblue;
+
+   }
+
+   h1 {
+    text-align: center;
+    font-family: 'Sofia';
+    font-size: 122px;
+    color:aliceblue;
+   }
+
+   p {
+    color: black;
+    font-weight: 400;
+    padding: 100px;
+
+   }
+
+   a {
+    text-decoration: none;
+  }
+
+   /* Styling classes & id's */
+   .menu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 21%;
+    border: 10px solid violet;
+    padding: 100px;
+    padding-bottom: 150px;
+    border-radius: 25px;
+    background-color: aqua;
+   }
+
+   .menu-link {
+    color: orange;
+    font-family: 'Sofia';
+    font-size: 19px;
+    font-weight: 400;
+    }
+
+    .menu ul {
+        list-style: none;
+    }
