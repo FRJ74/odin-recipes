@@ -1,0 +1,68 @@
+/* Global stylings */
+
+* {
+    box-sizing: border-box;
+  }
+
+ /* Main stylings */ 
+body {
+    background-color: linen;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    padding: 100px;
+}
+/* Styling classes & id's */
+
+.center {
+    text-align: center;
+}
+
+
+/* Add a counter to enumerate the steps */
+ol {
+    counter-reset: section;
+    list-style-type: none;
+}
+
+li.counter::before {
+    counter-increment: section;
+    content: "Step " counter(section) " ";
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* Styling Ingredients & image with boxes*/
+
+.container {
+    display: flex;
+    align-items: stretch;
+}
+
+.image-box, .text-box {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-box {
+    font-size: 16px;
+    line-height: 1.5;
+}
