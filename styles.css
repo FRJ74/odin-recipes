@@ -54,11 +54,10 @@
    
     .flex-container {
       display: flex;
-      background-color: DodgerBlue;
       justify-content:center;
       padding-top: 50px;
       border-radius: 15px;
-      border: 10px solid violet;
+      border: 10px solid  #ffbc40;
       background-color: aqua;
     }
 
@@ -67,6 +66,7 @@
       height: 150px; /* Set the desired height */
       object-fit: cover; /* Ensures the image maintains aspect ratio within the size */
       border-radius: 20px;
+      border: 2px solid violet;
   }
 
  
