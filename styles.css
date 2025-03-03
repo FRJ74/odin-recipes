@@ -1,8 +1,8 @@
 /* Global stylings */
 
-* {
+/* {
     box-sizing: border-box;
-  }
+  } */
 
   /* Main stylings */
    body {
@@ -17,13 +17,13 @@
     color:aliceblue;
    }
 
-   p {
+  /* p {
     color: black;
     font-weight: 400;
     padding: 100px;
 
    }
-
+*/
    a {
     text-decoration: none;
   }
@@ -70,8 +70,8 @@
   }
 
   footer {
-    background-color: #222; /* Dark background for contrast */
-    color: #fff; /* Light text for readability */
+    background-color: powderblue; /* Dark background for contrast */
+    color: black; /* Light text for readability */
     padding: 20px 40px; /* Balanced padding */
     display: flex;
     flex-wrap: wrap;
@@ -107,5 +107,6 @@
     margin: 10px;
     text-align: center;
   }
+
   
    
